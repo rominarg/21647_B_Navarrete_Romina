@@ -10,7 +10,7 @@ require('ejs');
 const { sequelize, conectarDB } = require('./database');
 
 const app = express()
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 // Alternativa de conexión 1
 conectarDB();

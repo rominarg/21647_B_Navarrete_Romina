@@ -3,14 +3,12 @@
 </head>
 <body class="vh-100">
 
-    <%-include("partials/navbar") %>
-
-            <div class="row">
+  <%-include("partials/navbar") %>
+        <div class="row p-4">
                 <div class="col">
                     <h1 class="text-center">Nueva Publicación</h1>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-md-4 mx-auto">
                     <form action="#" id="form-nuevo">
@@ -22,7 +20,6 @@
                                 style="height: 100px"></textarea>
                             <label for="floatingTextarea2">Detalle</label>
                         </div>
-
                         <div class="mb-3">
                             <input type="text" id="url_imagen" placeholder="url_imagen" class="form-control">
                         </div>
@@ -31,7 +28,7 @@
                             <input type="date" id="fecha_publicacion" class="form-control">
                         </div>
 
-                        <button type="submit" class="btn btn-sm btn-primary">
+                        <button type="submit" class="btn btn-sm btn-dark">
                             Guardar
                         </button>
                     </form>

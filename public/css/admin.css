@@ -8,3 +8,8 @@ body {
     display: grid;
     grid-template-rows: auto auto 1fr auto;
 }
+
+
+.p_footer {
+    color: rgb(255, 255, 255) !important;
+}
